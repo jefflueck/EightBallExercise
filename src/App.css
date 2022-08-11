@@ -3,7 +3,7 @@
   padding: 0;
   background-image: url(./daniil-silantev-SDoMyyylpnc-unsplash.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
   height: 100vh;
 }
