@@ -1,0 +1,97 @@
+.EightBall-header {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #222;
+  color: #fff;
+  width: 450px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.EightBall-guesses {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #222;
+  color: #fff;
+  width: 450px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.EightBall-guess-number {
+  color: green;
+  font-size: 20px;
+}
+
+.EightBall {
+  margin: 0 auto;
+  margin-top: 18vh;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+
+  cursor: pointer;
+  transition: background-color 0.5s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.EightBall-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.EightBall-button-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.EightBall-button-guess {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+}
+
+.EightBall-button-reset {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000;
+  color: red;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+}
