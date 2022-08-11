@@ -29,7 +29,7 @@ const EightBall = () => {
       </div>
       <div className="EightBall-button-group">
         <button className="EightBall-button-guess" onClick={newAnswer}>
-          Ask Again!
+          Ask the EightBall!
         </button>
         <button className="EightBall-button-reset" onClick={reset}>
           Reset
