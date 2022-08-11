@@ -36,13 +36,8 @@
   font-size: 2em;
   text-align: center;
   outline: #000 solid 80px;
-
   cursor: pointer;
   transition: background-color 0.5s;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .EightBall-text {

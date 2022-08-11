@@ -4,7 +4,7 @@ import answers from './answers';
 
 const EightBall = () => {
   const [answer, setAnswer] = useState('Think of a Question');
-  const [color, setColor] = useState('black');
+  const [color, setColor] = useState('#72b4ea');
   const [guess, setGuess] = useState(0);
   const newAnswer = () => {
     const { msg, color } = answers[Math.floor(Math.random() * answers.length)];
@@ -14,7 +14,7 @@ const EightBall = () => {
   };
   const reset = () => {
     setAnswer('Think of a Question');
-    setColor('black');
+    setColor('#72b4ea');
     setGuess(0);
   };
   return (
